@@ -15,6 +15,10 @@ public class forloop{
     for(int i=0;i<5;i++){
         System.out.println(arr[i]);
       }
+    
+    for (int num : arr)
+       System.out.println(arr[i]);
+
   }
 
 
