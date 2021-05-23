@@ -1,3 +1,4 @@
+import java.utils.Scanner
 public class forloop{
 
   public static void main(String args[]){
@@ -19,6 +20,19 @@ public class forloop{
     for (int num : arr)
        System.out.println(num);
 
+  
+  // user input
+    Scanner sc = new Scanner(System.in);
+    int arra[] = new int[4];
+
+    for(int i=0;i<4;i++)
+      arra[i] = sc.nextInt();
+
+    for(int num:arra)
+      System.out.println(num);
+  
+  
+  
   }
 
 
