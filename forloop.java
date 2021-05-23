@@ -17,7 +17,7 @@ public class forloop{
       }
     
     for (int num : arr)
-       System.out.println(arr[i]);
+       System.out.println(num);
 
   }
 
