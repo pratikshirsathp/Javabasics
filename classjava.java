@@ -16,7 +16,7 @@ class Alien{
 public class classjava{
   public static void main(String args[]){
 
-    Alien al = new Alien();
+    Alien al = new Alien(); //Constructor
     al.name = "Pratik shirsath";
     al.tech = "Java";
     al.exp = 1;
