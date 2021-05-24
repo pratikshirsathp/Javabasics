@@ -1,3 +1,4 @@
+// add two matrices, use random to get values
 import java.util.Random;
 public class addmatrix{
   public static void main(String args[]){
