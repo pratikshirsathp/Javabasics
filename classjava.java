@@ -6,7 +6,7 @@ class Alien{
   int exp;
   String laptop; 
   
-  //constructor
+  //constructor overloading - when we use multiple constuctor with different parameters
   public Alien() // default constructor
   {
     System.out.println("this is a constructor");
@@ -14,7 +14,7 @@ class Alien{
   //if passed parameter 
   public Alien(int exp)
   {
-    System.out.println("");
+    System.out.println("in Alien int para");
   }
 
   // method
