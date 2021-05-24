@@ -14,7 +14,7 @@ class Alien{
   //if passed parameter 
   public Alien(int exp)
   {
-    System.out.println("")
+    System.out.println("");
   }
 
   // method
