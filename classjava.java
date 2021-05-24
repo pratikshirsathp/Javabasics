@@ -5,6 +5,17 @@ class Alien{
   String tech;
   int exp;
   String laptop; 
+  
+  //constructor
+  public Alien() // default constructor
+  {
+    System.out.println("this is a constructor")
+  }
+  //if passed parameter 
+  public Alien(int exp)
+  {
+    System.out.println("")
+  }
 
   // method
   public void Makeproject()
