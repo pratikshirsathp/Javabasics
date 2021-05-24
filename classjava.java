@@ -9,7 +9,7 @@ class Alien{
   //constructor
   public Alien() // default constructor
   {
-    System.out.println("this is a constructor")
+    System.out.println("this is a constructor");
   }
   //if passed parameter 
   public Alien(int exp)
