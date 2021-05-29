@@ -3,6 +3,8 @@
 
 //child class method hiding method of parent class then its called method overriding
 
+//final class can't be inherited
+
 class Alien{
   ///encapsulate data and access with methods
   private String name;
@@ -30,8 +32,7 @@ class Alien{
   }
 }
 
-public class oops{
-
+public class Main{
   public static void main(String[] args){
 
     Alien obj = new Alien();
